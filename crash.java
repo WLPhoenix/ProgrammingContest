@@ -2,7 +2,8 @@ import java.util.Scanner;
 import java.util.ArrayList;
 /**
  * The Gorrelians have crashed.  Each Gorrelian has a radio with a limited range. If the radio's range reaches another Gorrelian
- * they meet, the radio can reach sqrt((C1 + C2)/(Pi)). Input is a string with number of Gorrelians on line one.
+ * they meet, the radio can reach sqrt((C1 + C2)/(Pi)), which boils down to sqrt((rng1^2 + rng2^2)). Input is a string with number
+ * of Gorrelians on line one.
  * 
  * @author Max Shenfield
  * @version 09/12/2013
