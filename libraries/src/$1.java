@@ -16,12 +16,12 @@ public class $1 {
     /**
      * Do your object configuration in the constructor (uncomment the resources you need.)
      */    
-    private final Scanner scan;
-    private final BufferedReader read;
+    private Scanner scan;
+    private BufferedReader read;
 
-    private $1() throws IOException {
-	//scan = new Scanner("$1.in");
-	//read = new BufferedReader(new FileReader("$1.in"));
+    private test() {
+	//scan = new Scanner("test.in");
+	//read = new BufferedReader(new FileReader("test.in"));
     }
 
     public void doWorkHere() {
